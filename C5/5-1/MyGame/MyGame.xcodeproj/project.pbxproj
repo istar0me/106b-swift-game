@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D361D1CA1A8D4DB400B1445A /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D361D1C91A8D4DB400B1445A /* bg.jpg */; };
-		D361D1CD1A8D4F3A00B1445A /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = D361D1CB1A8D4F3A00B1445A /* button1.png */; };
-		D361D1CE1A8D4F3A00B1445A /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = D361D1CC1A8D4F3A00B1445A /* button2.png */; };
 		D3DA98B41A8C2F4F006F6C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA98B31A8C2F4F006F6C06 /* AppDelegate.swift */; };
 		D3DA98B61A8C2F4F006F6C06 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3DA98B51A8C2F4F006F6C06 /* GameScene.sks */; };
 		D3DA98B81A8C2F4F006F6C06 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA98B71A8C2F4F006F6C06 /* GameScene.swift */; };
@@ -31,9 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D361D1C91A8D4DB400B1445A /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
-		D361D1CB1A8D4F3A00B1445A /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
-		D361D1CC1A8D4F3A00B1445A /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		D3DA98AE1A8C2F4F006F6C06 /* MyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DA98B21A8C2F4F006F6C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3DA98B31A8C2F4F006F6C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,9 +81,6 @@
 		D3DA98B01A8C2F4F006F6C06 /* MyGame */ = {
 			isa = PBXGroup;
 			children = (
-				D361D1CB1A8D4F3A00B1445A /* button1.png */,
-				D361D1CC1A8D4F3A00B1445A /* button2.png */,
-				D361D1C91A8D4DB400B1445A /* bg.jpg */,
 				D3DA98B31A8C2F4F006F6C06 /* AppDelegate.swift */,
 				D3DA98B51A8C2F4F006F6C06 /* GameScene.sks */,
 				D3DA98B71A8C2F4F006F6C06 /* GameScene.swift */,
@@ -210,13 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D361D1CA1A8D4DB400B1445A /* bg.jpg in Resources */,
 				D3DA98C21A8C2F4F006F6C06 /* LaunchScreen.xib in Resources */,
 				D3DA98BF1A8C2F4F006F6C06 /* Images.xcassets in Resources */,
 				D3DA98B61A8C2F4F006F6C06 /* GameScene.sks in Resources */,
 				D3DA98BD1A8C2F4F006F6C06 /* Main.storyboard in Resources */,
-				D361D1CD1A8D4F3A00B1445A /* button1.png in Resources */,
-				D361D1CE1A8D4F3A00B1445A /* button2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -367,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -380,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "looptek.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "looptek.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

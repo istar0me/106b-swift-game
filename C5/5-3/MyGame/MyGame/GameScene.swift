@@ -46,14 +46,14 @@ class GameScene: SKScene {
         
         
         
-        let button3 = SKSpriteNode(imageNamed: "button1.png")
-        self.addChild(button3)
-        button3.position = CGPoint(x: 850,y:200 );
-        button3.zPosition = 2
-        let button4 = SKSpriteNode(imageNamed: "button2.png")
-        self.addChild(button4)
-        button4.position = CGPoint(x: 800,y:200 );
-        button4.zPosition = 1
+//        let button3 = SKSpriteNode(imageNamed: "button1.png")
+//        self.addChild(button3)
+//        button3.position = CGPoint(x: 850,y:200 );
+//        button3.zPosition = 2
+//        let button4 = SKSpriteNode(imageNamed: "button2.png")
+//        self.addChild(button4)
+//        button4.position = CGPoint(x: 800,y:200 );
+//        button4.zPosition = 1
        
         
     }
