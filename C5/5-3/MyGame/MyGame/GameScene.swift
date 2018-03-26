@@ -31,6 +31,7 @@ class GameScene: SKScene {
         myLabel2.text = "About Us"
         myLabel2.fontSize = 28
         myLabel2.fontColor=UIColor(red: 255/255, green: 255, blue: 255/255, alpha: 200/255)
+        myLabel2.zPosition = 2
         myLabel2.position = CGPoint(x: 300,y:200-12 );
         self.addChild(myLabel2)
         
@@ -42,6 +43,7 @@ class GameScene: SKScene {
         myLabel3.fontSize = 28
         myLabel3.fontColor=UIColor(red: 255/255, green: 255, blue: 255/255, alpha: 200/255)
         myLabel3.position = CGPoint(x: 300,y:300-12 )
+        myLabel3.zPosition = 2
         self.addChild(myLabel3)
         
         
