@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='3.0 新手手冊'/>
+        <page name='3.1 註解與列印'/>
+        <page name='3.2 變數與常數'/>
+        <page name='3.3 資料型態'/>
+        <page name='3.4 運算子'/>
+        <page name='3.5 控制迴圈'/>
+    </pages>
+</playground>

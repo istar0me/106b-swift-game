@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='4.1 集合型態'/>
+        <page name='4.2 撰寫簡單的函數'/>
+        <page name='4.3 函數的回傳值'/>
+        <page name='4.4 物件與類別'/>
+    </pages>
+</playground>

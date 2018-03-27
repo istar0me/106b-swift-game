@@ -1,0 +1,5 @@
+# 忽略 C10 的檔案
+C10/*
+
+# 忽略 .DS_Store
+.DS_Store
