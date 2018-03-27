@@ -2,12 +2,12 @@
 //  MyGameTests.swift
 //  MyGameTests
 //
-//  Created by minidino on 2018/3/27.
-//  Copyright © 2018年 nqu. All rights reserved.
+//  Created by Powen Ko on 2/11/15.
+//  Copyright (c) 2015 Powen Ko. All rights reserved.
 //
 
+import UIKit
 import XCTest
-@testable import MyGame
 
 class MyGameTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class MyGameTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        self.measure() {
             // Put the code you want to measure the time of here.
         }
     }

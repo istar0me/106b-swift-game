@@ -1,55 +1,53 @@
 //
 //  GameViewController.swift
-//  MyGame
+//  test3
 //
-//  Created by minidino on 2018/3/27.
-//  Copyright © 2018年 nqu. All rights reserved.
+//  Created by Powen Ko on 8/7/15.
+//  Copyright (c) 2015 Powen Ko. All rights reserved.
 //
 
 import UIKit
 import SpriteKit
-import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
+        if let scene = GameScene(fileNamed:"GameScene") { // 讀入主畫面
+            // Configure the view.
+            let skView = self.view as! SKView
+          //  skView.showsFPS = true // 顯示 FPS 資訊
+          //  skView.showsNodeCount = true // 顯示 Node 數量
             
-            view.ignoresSiblingOrder = true
+            /* Sprite Kit applies additional optimizations to improve rendering performance */
+            skView.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            /* Set the scale mode to scale to fit the window */
+            scene.scaleMode = .aspectFill
+            
+            skView.presentScene(scene)
         }
     }
-
-    override var shouldAutorotate: Bool {
+    
+    override var shouldAutorotate : Bool { // 手機支援自動旋轉
         return true
     }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+    
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
         } else {
             return .all
         }
     }
-
-    override func didReceiveMemoryWarning() {
+    
+    override func didReceiveMemoryWarning() { // 記憶體警告處理
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
-
-    override var prefersStatusBarHidden: Bool {
+    
+    override var prefersStatusBarHidden : Bool { // 隱藏狀態列
         return true
     }
 }
